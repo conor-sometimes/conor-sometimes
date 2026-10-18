@@ -1,5 +1,17 @@
 ### Currently
 
-- Contributing to [Lombyte](https://github.com/lombyte-project/Lombyte), a byte-matching PS2 decompilation
+- Security engineer on a forensic and incident response team: alerts, malware, phishing, hunts
+- Decompiling PS2 games with AI coding agents I direct, byte-matched against the retail binaries:
+  [Lombyte](https://github.com/lombyte-project/Lombyte) upstream and
+  [Bokura no Kazoku](https://github.com/conor-sometimes/bokura-no-kazoku-decomp) on my own
 - B.Sc. in Network Cybersecurity, in progress
 - Studying Japanese
+
+### Nix, mostly
+
+I like Nix more than is reasonable. My servers run NixOS, every project here has a flake, and a
+refactor is finished when the derivation hash says nothing changed.
+
+- [decomp-nix](https://github.com/conor-sometimes/decomp-nix): the whole toolchain for matching decompilations, declared once per console
+- [nixos-agent-containment](https://github.com/conor-sometimes/nixos-agent-containment): run AI coding agents behind an egress allow-list, resource limits, an audit trail and an ssh lockdown
+- [nixos-hardening](https://github.com/conor-sometimes/nixos-hardening): a VM-tested host-hardening module with opt-in per-user impermanence
