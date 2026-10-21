@@ -9,8 +9,7 @@
 
 ### Nix, mostly
 
-I like Nix more than is reasonable. My servers run NixOS, every project here has a flake, and a
-refactor is finished when the derivation hash says nothing changed.
+I like Nix more than is reasonable. My servers run NixOS and every project here has a flake.
 
 - [decomp-nix](https://github.com/conor-sometimes/decomp-nix): the whole toolchain for matching decompilations, declared once per console
 - [nixos-agent-containment](https://github.com/conor-sometimes/nixos-agent-containment): run AI coding agents behind an egress allow-list, resource limits, an audit trail and an ssh lockdown
