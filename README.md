@@ -2,11 +2,11 @@
 
 - Security engineer on a forensic and incident response team: alerts, malware, phishing, hunts
 - B.Sc. in Network Cybersecurity, in progress
-- Studying Japanese
+- 毎日日本語を勉強します
 
 ### Nix, mostly
 
-I like Nix more than is reasonable. My servers run NixOS and every project here has a flake.
+I adore Nix. My servers run NixOS and every project here has a flake.
 
 - [decomp-nix](https://github.com/conor-sometimes/decomp-nix): the whole toolchain for matching decompilations, declared once per console
 - [nixos-agent-containment](https://github.com/conor-sometimes/nixos-agent-containment): run AI coding agents behind an egress allow-list, resource limits, an audit trail and an ssh lockdown
