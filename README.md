@@ -14,6 +14,7 @@ I adore Nix. My servers run NixOS and every project here has a flake.
 
 ### Also
 
+- [pktlib](https://github.com/conor-sometimes/pktlib): read, edit and write Cisco Packet Tracer files from Python. Build a network in code, save it, open it in Packet Tracer. Pure Python, no dependencies, on PyPI
 - PS2 decompilation with AI coding agents, byte-matched against the retail game:
   [Lombyte](https://github.com/lombyte-project/Lombyte) (Ratchet & Clank) upstream and
   [Bokura no Kazoku](https://github.com/conor-sometimes/bokura-no-kazoku-decomp) on my own
