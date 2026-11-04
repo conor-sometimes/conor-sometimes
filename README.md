@@ -10,6 +10,14 @@
 - [mimi](https://github.com/conor-sometimes/mimi): an eBPF process-telemetry sensor for banken - the ears, what a process did
 - [hitomi](https://github.com/conor-sometimes/yara-sensor): a listener-only YARA content scanner for banken - the eyes, what a file is
 
+### banken
+
+A host EDR for Linux, open source under MIT: Sigma rules over audit and eBPF telemetry, YARA rules over files, findings as OCSF or ECS, and a separate least-privilege helper that kills, freezes and quarantines.
+
+- [banken](https://github.com/conor-sometimes/banken): the detection engine and responder, one static Go binary
+- [mimi](https://github.com/conor-sometimes/mimi): eBPF process-telemetry sensor in Rust, one probe binary across kernels 5.14 to 7.2
+- [hitomi](https://github.com/conor-sometimes/yara-sensor): listener-only YARA content scanner in Rust, fanotify and yara-x
+
 ### Nix, mostly
 
 I adore Nix. My servers run NixOS and every project here has a flake.
