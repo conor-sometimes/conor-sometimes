@@ -4,6 +4,12 @@
 - B.Sc. in Network Cybersecurity, in progress
 - 毎日日本語を勉強します
 
+### Host security tooling
+
+- [banken](https://github.com/conor-sometimes/banken): a host EDR for Linux in Go — Sigma + IOC detection over auditd and eBPF, OCSF/ECS/OTLP output, no kernel module
+- [mimi](https://github.com/conor-sometimes/mimi): an eBPF process-telemetry sensor for banken — the ears, what a process did
+- [hitomi](https://github.com/conor-sometimes/yara-sensor): a listener-only YARA content scanner for banken — the eyes, what a file is
+
 ### Nix, mostly
 
 I adore Nix. My servers run NixOS and every project here has a flake.
