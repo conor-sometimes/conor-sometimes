@@ -17,6 +17,7 @@ I adore Nix. My servers run NixOS and every project here has a flake.
 - [workbench](https://github.com/conor-sometimes/workbench): one declarative Nix environment per project (decomp toolchains, Python, Rust) as an FHS shell or an on-demand container
 - [nixos-agent-containment](https://github.com/conor-sometimes/nixos-agent-containment): run AI coding agents behind an egress allow-list, resource limits, an audit trail and an ssh lockdown
 - [nixos-hardening](https://github.com/conor-sometimes/nixos-hardening): a VM-tested host-hardening module with opt-in per-user impermanence
+- [mayfly](https://github.com/conor-sometimes/mayfly): a declarative cross-distro test harness - boot N real vendor Linux distros under KVM, run your checks on each, tear them down; it found a real kernel-portability bug in my own eBPF sensor
 
 ### Also
 
